@@ -1,0 +1,14 @@
+Ruby 品妍入口網站｜GitHub Pages 上架步驟
+
+1. 在 https://github.com/new 建立 Public repository，名稱建議 ruby-pinyen-portal。
+   可勾選 Add a README file 初始化 main 分支。
+2. 開啟新的 repository，按 Add file → Upload files。
+3. 將本 ZIP 解壓縮後「裡面的檔案和 assets 資料夾」拖曳上傳到儲存庫最外層。
+   請勿把整個解壓縮資料夾外層作為單獨目錄上傳。
+4. 點 Commit changes，完成上傳。
+5. 到 Settings → Pages → Build and deployment：Source 選 Deploy from a branch，Branch 選 main，Folder 選 /(root)，按 Save。
+6. 等頁面顯示網站已發布後，網址通常為：
+   https://<你的GitHub帳號>.github.io/ruby-pinyen-portal/
+
+重要：這是可瀏覽的靜態網站版本，不包含真正的會員後台、報名資料庫或自動公告管理。
+原始 QR Code、品牌圖片、個人形象照將隨著網站一同公開。
